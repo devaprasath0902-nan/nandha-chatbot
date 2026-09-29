@@ -1,0 +1,147 @@
+{
+  "greeting": {
+    "patterns": [
+      "hi", "hello", "hey", "good morning", "good afternoon", "good evening",
+      "is anyone there", "hey there", "hello chatbot", "greetings", "namaste"
+    ],
+    "responses": [
+      "Hello! Welcome to the Nandha Arts and Science College Admission Enquiry Desk. I can help with courses, fees, eligibility, scholarships, hostel, placements, documents, and important dates. What would you like to know?"
+    ]
+  },
+  "goodbye": {
+    "patterns": [
+      "bye", "goodbye", "see you later", "talk to you later", "close chat",
+      "that is all", "no more questions", "exit", "quit"
+    ],
+    "responses": [
+      "Thank you for reaching out to the Nandha Arts and Science College Admission Enquiry Desk. All the best for your application! Feel free to come back anytime."
+    ]
+  },
+  "thanks": {
+    "patterns": [
+      "thanks", "thank you", "thanks a lot", "that was helpful", "appreciate it", "thank you so much"
+    ],
+    "responses": [
+      "You're welcome! Is there anything else about admissions I can help you with?"
+    ]
+  },
+  "courses_offered": {
+    "patterns": [
+      "what courses do you offer", "list of courses", "which programs are available",
+      "what degrees can i study", "tell me about courses", "available branches",
+      "what streams are offered", "course list", "programs offered", "which branches are there in btech"
+    ],
+    "responses": ["__DYNAMIC_COURSES__"]
+  },
+  "eligibility_criteria": {
+    "patterns": [
+      "what is the eligibility criteria", "am i eligible", "eligibility for admission",
+      "minimum marks required", "who can apply", "qualification required for admission",
+      "eligibility for btech", "eligibility for mba", "what percentage do i need"
+    ],
+    "responses": ["__DYNAMIC_ELIGIBILITY__"]
+  },
+  "fee_structure": {
+    "patterns": [
+      "what is the fee structure", "how much is the tuition fee", "course fees",
+      "annual fee", "fee details", "how much does it cost to study", "total fees for the course",
+      "what is the fee for btech cse", "fee structure for mba"
+    ],
+    "responses": ["__DYNAMIC_FEES__"]
+  },
+  "scholarship": {
+    "patterns": [
+      "are there any scholarships", "scholarship details", "financial aid",
+      "fee waiver", "merit scholarship", "how can i get a scholarship",
+      "scholarship eligibility", "do you offer scholarships"
+    ],
+    "responses": ["__DYNAMIC_SCHOLARSHIP__"]
+  },
+  "admission_process": {
+    "patterns": [
+      "how do i apply", "admission process", "how to get admission",
+      "steps to apply", "application procedure", "how can i register for admission",
+      "admission steps", "how does the admission process work"
+    ],
+    "responses": [
+      "Admission Process:\n1. Fill the online application form on the college admission portal.\n2. Upload scanned copies of required documents.\n3. Pay the application fee.\n4. Appear for entrance test/counselling if applicable to your course.\n5. Check the merit list once released.\n6. Complete document verification and fee payment to confirm your seat.\nWould you like to know the important dates or required documents?"
+    ]
+  },
+  "important_dates": {
+    "patterns": [
+      "what are the important dates", "admission deadline", "last date to apply",
+      "when does the application start", "when do classes begin", "application deadline",
+      "when is the entrance exam", "admission schedule", "when will the merit list be released"
+    ],
+    "responses": ["__DYNAMIC_DATES__"]
+  },
+  "required_documents": {
+    "patterns": [
+      "what documents are required", "documents needed for admission",
+      "which certificates do i need to submit", "document checklist",
+      "what should i bring for admission", "list of required documents"
+    ],
+    "responses": ["__DYNAMIC_DOCUMENTS__"]
+  },
+  "hostel_facility": {
+    "patterns": [
+      "is hostel available", "hostel facility", "accommodation for students",
+      "do you provide hostel", "hostel fee", "boys hostel", "girls hostel", "residential facility"
+    ],
+    "responses": ["__DYNAMIC_FAQ_HOSTEL__"]
+  },
+  "placement_info": {
+    "patterns": [
+      "what about placements", "placement record", "which companies visit for placement",
+      "average package", "highest package", "placement statistics", "job opportunities after course"
+    ],
+    "responses": ["__DYNAMIC_FAQ_PLACEMENT__"]
+  },
+  "management_quota": {
+    "patterns": [
+      "is there a management quota", "management seats available", "quota admission", "donation seats"
+    ],
+    "responses": ["__DYNAMIC_FAQ_QUOTA__"]
+  },
+  "multiple_applications": {
+    "patterns": [
+      "can i apply for more than one course", "apply for multiple courses",
+      "can i choose two branches", "multiple course application"
+    ],
+    "responses": ["__DYNAMIC_FAQ_MULTI__"]
+  },
+  "entrance_exam": {
+    "patterns": [
+      "is there an entrance exam", "do i need jee for btech", "entrance test for admission",
+      "is cat required for mba", "any exam required for admission"
+    ],
+    "responses": ["__DYNAMIC_FAQ_EXAM__"]
+  },
+  "contact_info": {
+    "patterns": [
+      "how can i contact the admission office", "contact number", "admission office email",
+      "how do i reach you", "contact details", "phone number of college", "email address for admission queries"
+    ],
+    "responses": ["__DYNAMIC_FAQ_CONTACT__"]
+  },
+  "fallback": {
+    "patterns": [
+      "tell me a joke", "what is the weather today", "who is the prime minister",
+      "sing a song", "what is your favorite color", "can you dance",
+      "tell me a story", "play a game", "what is the capital of india",
+      "how old are you", "do you love me", "what is 2 plus 2", "recommend a movie",
+      "what is the meaning of life", "who won the cricket match"
+    ],
+    "responses": [
+      "I'm sorry, I couldn't quite understand that. I specialize in admission-related questions — courses, eligibility, fees, scholarships, hostel, placements, documents, and important dates. Could you rephrase your question?"
+    ]
+  },
+  "bot_identity": {
+    "patterns": [
+      "who are you", "what is your name", "are you a robot", "are you human", "what can you do", "help"
+    ],
+    "responses": [
+      "I'm the Nandha Arts and Science College Admission Assistant, an AI chatbot here to answer your questions about courses, eligibility, fees, scholarships, hostel, placements, documents, and admission deadlines — instantly, 24x7."
+    ]
+  }
+}
